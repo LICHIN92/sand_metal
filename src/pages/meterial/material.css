@@ -1,0 +1,96 @@
+.materialContainer {
+    max-width: 100vw;
+    min-height: 80vh;
+}
+
+.materialContainer .materials {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center ;
+    align-items: center ;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.materials div {
+    width: 300px;
+    height: 200px;
+    background-color: burlywood;
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+}
+
+.materials img {
+    width: 100%;
+    height: 100%;
+}
+
+.materials p {
+    position: absolute;
+    width: 100%;
+    top: 176px;
+    text-align: center;
+    background-color: rgb(222, 184, 135, .5);
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+@media(max-width:950px) {
+    .materials div {
+        width: 250px;
+        height: 150px;
+    }
+
+    .materials p {
+        top: 125px;
+    }
+}
+
+@media(max-width:530px) {
+    .materials {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        gap: 12px !important;
+        flex-wrap: wrap; /* optional: preserve wrap behavior */
+    }
+    .materials div {
+        width: 200px;
+        height: 110px;
+    }
+    .materials p{
+        top: 90px;
+        font-size: 13px;
+        padding: 0 !important;
+        
+    }
+}
+@media(max-width:420px){
+    .materials div {
+        width: 160px;
+        height: 100px;
+    }
+    .materials p{
+        top: 82px;
+        font-size: 13px;
+        padding: 0 !important;
+        
+    }
+
+}
+@media(max-width:340px){
+    .materials div {
+        width: 140px;
+        height: 100px;
+    }
+    .materials p{
+        top: 82px;
+        font-size: 13px;
+        padding: 0 !important;
+        
+    }
+
+}
