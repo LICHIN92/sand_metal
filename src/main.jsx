@@ -11,6 +11,7 @@ import Mainpage from './Mainpage.jsx'
 import About from './pages/about/About.jsx';
 import Bokking from './pages/Booking/Bokking.jsx';
 import Material from './pages/meterial/Material.jsx';
+import Contact from './pages/contact/Contact.jsx';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path:'material',
         element:<Material/>
+      },
+      {
+        path:'/contact',
+        element:<Contact/>
       }
     ]
   },

@@ -1,3 +1,94 @@
-.booking{
-    
+.booking {
+    min-height: 78vh;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding-top: 20px;
+    gap: 20px;
+    background-color: cadetblue;
+    padding-inline: 25px;
+    background-repeat: no-repeat;
+    background-size:100% 120%;
+}
+.booking h2{
+    color: rgb(255, 255, 255,.6);
+    -webkit-text-stroke: rgb(167, 57, 6) 1px;
+}
+.formdiv {
+    max-width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-inline: 5px;
+}
+
+.booking form .labelname {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    /* justify-content: center; */
+    /* background-color: brown; */
+}
+
+.labelname label {
+    /* text-align: center !important; */
+    /* background-color: coral; */
+    text-transform: capitalize;
+    width: 100%;
+    color: white;
+}
+
+.labelname input,select {
+    height: 30px;
+    width: 90%;
+    border-radius: 5px;
+    outline: auto;
+    margin-left: 10px;
+    padding-left: 2px;
+}
+
+.labelname form {
+    width: 100vw;
+    background-color: aqua;
+    display: flex
+}
+.labelname small{
+    margin-left: 8px;
+    color: yellow;
+}
+.bookbutton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+}
+
+.bookbutton button {
+    width: 200px;
+    height: 50px;
+    background-color: darkred;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+.booking  select{
+    width: 160px;
+}.imagebox{
+    margin-top: 15px;
+    padding-left: 15px;
+    /* background-color: antiquewhite; */
+}
+.imagebox img{
+    border-radius: 5px;
+    border: 1px solid;
+    width: 200px;
+    height: 120px;
+}
+.imagebox span{
+    text-transform: capitalize;
+
 }
